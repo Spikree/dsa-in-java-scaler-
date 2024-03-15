@@ -27,7 +27,7 @@ public class ReverseArray {
         }
 
         for(int k = 0; k < n; k ++ ){
-            System.out.print(arr[k]+ " ");
+            System.out.print(arr[k]+ "  ");
         }
     }
 }
