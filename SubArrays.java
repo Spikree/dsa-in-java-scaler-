@@ -19,12 +19,11 @@ public class SubArrays{
         int si = 0;
         int ei = 0;
 
-        for (si = 0; si < n; si ++) {
-            for(ei = si; ei < n; ei++) {
-                for(int k = si;k <= ei; k++) {
-                    System.out.print(arr[k] + " ");
+        for(si = 0 ; si < n; si ++) {
+            for(ei = si; ei < n; ei ++ ) {
+                for(int k = si; k <= ei ; k ++ ) {
+                    System.out.print(arr[k]  + " ");
                 }
-
                 System.out.println(" ");
             }
         }

@@ -15,7 +15,7 @@ public class TwoDArray {
         System.out.println(arr.length);
 
         // colum count
-        System.out.println(arr[0].length);
+        System.out.println(arr[2].length);
 
         // traversal of 2d array
         for(int i = 0; i< arr.length; i++) { // row
